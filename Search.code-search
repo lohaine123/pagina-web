@@ -1,0 +1,79 @@
+# Query: 
+# ContextLines: 1
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Simples no GitHub Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à minha página simples!</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="content">
+        <h2>Seção de conteúdo</h2>
+        <p>Esta é uma página simples criada com HTML. Aqui você pode adicionar suas informações, links e imagens.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Minha Página Simples. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
